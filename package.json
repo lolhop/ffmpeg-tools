@@ -1,0 +1,59 @@
+{
+    "name": "ffmpeg-editor",
+    "title": "FFmpeg Editor",
+    "description": "Video, audio, and image editing utilities using FFmpeg",
+    "icon": "command-icon.png",
+    "author": "lolhop",
+    "categories": ["Productivity", "Application"],
+    "license": "MIT",
+    
+    "commands": [
+      {
+        "name": "compress",
+        "title": "Compress Video/Audio",
+        "description": "Compress Video/Audio",
+        "mode": "view"
+      },
+      {
+        "name": "speed",
+        "title": "Change Video/Audio Speed",
+        "description": "Modify video and audio playback speed",
+        "mode": "view"
+      },
+      {
+        "name": "convert",
+        "title": "Convert Video/Audio/Image",
+        "description": "Convert video, audio, and images to different format",
+        "mode": "view"
+      },
+      {
+        "name": "resolution-video",
+        "title": "Change Video Resolution",
+        "description": "Modify video resolution",
+        "mode": "view"
+      },
+      {
+        "name": "resize-image",
+        "title": "Resize Image",
+        "description": "Change image dimensions",
+        "mode": "view"
+      }
+    ],
+    "dependencies": {
+      "@raycast/api": "^1.55.2",
+      "execa": "^5.1.1"
+    },
+    "devDependencies": {
+      "@types/node": "~20.8.10",
+      "@typescript-eslint/eslint-plugin": "^5.62.0",
+      "@typescript-eslint/parser": "^5.62.0",
+      "eslint": "^8.51.0",
+      "typescript": "^5.2.2"
+    },
+    "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "lint": "ray lint",
+    "publish": "ray publish"
+  }
+  }
