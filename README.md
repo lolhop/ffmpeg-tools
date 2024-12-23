@@ -1,4 +1,4 @@
-# FFmpeg Editor
+# FFmpeg Tools
 
 Another FFmpeg wrapper that allows you to do more things.
 
