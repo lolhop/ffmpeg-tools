@@ -19,8 +19,6 @@ declare namespace Preferences {
   export type Speed = ExtensionPreferences & {}
   /** Preferences accessible in the `convert` command */
   export type Convert = ExtensionPreferences & {}
-  /** Preferences accessible in the `resolution-video` command */
-  export type ResolutionVideo = ExtensionPreferences & {}
   /** Preferences accessible in the `resize` command */
   export type Resize = ExtensionPreferences & {}
 }
@@ -32,8 +30,6 @@ declare namespace Arguments {
   export type Speed = {}
   /** Arguments passed to the `convert` command */
   export type Convert = {}
-  /** Arguments passed to the `resolution-video` command */
-  export type ResolutionVideo = {}
   /** Arguments passed to the `resize` command */
   export type Resize = {}
 }

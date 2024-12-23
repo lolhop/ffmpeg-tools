@@ -27,12 +27,6 @@
         "mode": "view"
       },
       {
-        "name": "resolution-video",
-        "title": "Change Video Resolution",
-        "description": "Modify video resolution",
-        "mode": "view"
-      },
-      {
         "name": "resize",
         "title": "Resize Video/Image",
         "description": "Change video and image dimensions",
