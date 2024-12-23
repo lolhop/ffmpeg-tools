@@ -21,8 +21,8 @@ declare namespace Preferences {
   export type Convert = ExtensionPreferences & {}
   /** Preferences accessible in the `resolution-video` command */
   export type ResolutionVideo = ExtensionPreferences & {}
-  /** Preferences accessible in the `resize-image` command */
-  export type ResizeImage = ExtensionPreferences & {}
+  /** Preferences accessible in the `resize` command */
+  export type Resize = ExtensionPreferences & {}
 }
 
 declare namespace Arguments {
@@ -34,7 +34,7 @@ declare namespace Arguments {
   export type Convert = {}
   /** Arguments passed to the `resolution-video` command */
   export type ResolutionVideo = {}
-  /** Arguments passed to the `resize-image` command */
-  export type ResizeImage = {}
+  /** Arguments passed to the `resize` command */
+  export type Resize = {}
 }
 

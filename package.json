@@ -33,9 +33,9 @@
         "mode": "view"
       },
       {
-        "name": "resize-image",
-        "title": "Resize Image",
-        "description": "Change image dimensions",
+        "name": "resize",
+        "title": "Resize Video/Image",
+        "description": "Change video and image dimensions",
         "mode": "view"
       }
     ],
